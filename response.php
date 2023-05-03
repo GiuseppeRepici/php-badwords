@@ -1,6 +1,6 @@
 <?php
 $testo = $_GET['testo'];
-$testodaoscurare = $_GET['testoscurare'];
+$testodaoscurare = $_GET['paroladaoscurare'];
 $prova_replace = str_replace($testodaoscurare, '***', $testo);
 ?>
 

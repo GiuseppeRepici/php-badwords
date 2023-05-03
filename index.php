@@ -10,8 +10,8 @@
 <form action="response.php" method="GET">
     <label for="testo">testo</label>
     <textarea id="testo" name="testo"></textarea>
-    <label for="testoscurare">testo da oscurare</label>
-    <input type="text" id="testoscurare" name="testoscurare">
+    <label for="paroladaoscurare">parola da oscurare</label>
+    <input type="text" id="paroladaoscurare" name="paroladaoscurare">
     <button type="submit">Invia</button>
 </form>
     
