@@ -12,7 +12,11 @@ $testodaoscurare = $_GET['testoscurare'];
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $testo . strlen($testo) . " " . $testodaoscurare . " " . strlen($testodaoscurare); ?></h1>
+    <h1><?php echo $testo . " " . strlen($testo); ?></h1>
     
+    <?php
+        $prova_replace = str_replace('prova', '***', $testodaoscurare);
+        echo $prova_replace . " " . strlen($testodaoscurare);
+    ?>
 </body>
 </html>

@@ -9,9 +9,9 @@
 <body>
 <form action="response.php" method="GET">
     <label for="testo">testo</label>
-    <input type="text" id="testo" name="testo">
+    <textarea id="testo" name="testo"></textarea>
     <label for="testoscurare">testo da oscurare</label>
-    <input type="text" id="testoscurare" name="testoscurare">
+    <textarea id="testoscurare" name="testoscurare"></textarea>
     <button type="submit">Invia</button>
 </form>
     
