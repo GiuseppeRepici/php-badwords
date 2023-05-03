@@ -1,6 +1,7 @@
 <?php
 $testo = $_GET['testo'];
 $testodaoscurare = $_GET['testoscurare'];
+$prova_replace = str_replace($testodaoscurare, '***', $testo);
 ?>
 
 <!DOCTYPE html>
@@ -13,10 +14,7 @@ $testodaoscurare = $_GET['testoscurare'];
 </head>
 <body>
     <h1><?php echo $testo . " " . strlen($testo); ?></h1>
+    <h1> <?php echo $prova_replace . " " . strlen($testo); ?> </h1>
     
-    <?php
-        $prova_replace = str_replace($testodaoscurare, '***', $testo);
-        echo $prova_replace . " " . strlen($testo);
-    ?>
 </body>
 </html>
