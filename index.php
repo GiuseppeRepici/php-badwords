@@ -11,7 +11,7 @@
     <label for="testo">testo</label>
     <textarea id="testo" name="testo"></textarea>
     <label for="testoscurare">testo da oscurare</label>
-    <textarea id="testoscurare" name="testoscurare"></textarea>
+    <input type="text" id="testoscurare" name="testoscurare">
     <button type="submit">Invia</button>
 </form>
     
